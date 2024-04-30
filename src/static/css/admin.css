@@ -1,0 +1,109 @@
+
+
+.category-buttons {
+    display: flex;
+    margin-top: 200px; /* Adjust the top margin as needed */
+}
+
+.category-btn {
+    background-color: orange;
+    /* Red */
+    color: #fff;
+    /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Add margin between the buttons */
+
+}
+
+.category-btn:hover {
+    background-color: #c92626;
+    /* Darker red on hover */
+}
+
+.category-content {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.category-title {
+    color: #333;
+    /* Dark grey */
+    margin-bottom: 10px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    /* Centering the buttons */
+    margin-bottom: 20px;
+}
+
+
+
+.category-btn:hover {
+    background-color: #c92626;
+    /* Darker red on hover */
+}
+
+.category-content {
+    display: none;
+    margin-bottom: 20px;
+    text-align: center;
+    /* Centering the content */
+}
+
+.category-title {
+    color: #333;
+    /* Dark grey */
+    margin-bottom: 10px;
+}
+
+.category-table {
+    width: auto;
+    /* Adjust width dynamically */
+    margin: 0 auto;
+    /* Center the table */
+    border-collapse: collapse;
+        margin-top:20px;
+}
+
+.category-table th,
+.category-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Adjusted padding */
+    text-align: left;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+    /* Light grey */
+}
+
+.edit-btn,
+.delete-btn {
+    background-color: orange;
+    /* Blue */
+    color: #fff;
+    /* White text */
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    /* Adjust spacing between buttons */
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color: orange;
+    /* Darker blue on hover */
+}
+
+
